@@ -1,9 +1,9 @@
 ﻿Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Введите размерность M: ");
-int m = int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введите размерность N: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()!);
 
 double[,] matrix = new double[m, n];
 
